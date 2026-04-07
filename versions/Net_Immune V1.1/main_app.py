@@ -566,7 +566,7 @@ class DashboardWindow:
         y = self.window.winfo_y() + 100
         share_win.geometry(f"+{x}+{y}")
 
-        repo_link = "https://github.com/Kamalesh-S2k5-RR/Net_Immune_v1.1-core.git" 
+        repo_link = "https://github.com/Kamalesh-S2k5-RR/Net-Innume-Versions.git" 
         promo_text = "Check out Net Immune! I built an AI-powered cybersecurity agent that scans for hackers in real-time. 🤖🛡️"
         
         safe_text = urllib.parse.quote(promo_text)
