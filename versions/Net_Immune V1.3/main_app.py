@@ -542,7 +542,7 @@ class DashboardWindow:
         about_win.geometry(f"+{x}+{y}")
 
         ctk.CTkLabel(about_win, text="NET IMMUNE", font=("Courier New", 20, "bold"), text_color=("#006688", "#00FFCC")).pack(pady=(15, 0))
-        ctk.CTkLabel(about_win, text="v1.2 Core | Llama-3 AI Engine", font=("Arial", 10), text_color=("#555555", "#888888")).pack(pady=(0, 15))
+        ctk.CTkLabel(about_win, text="v1.3 Core | Llama-3 AI Engine", font=("Arial", 10), text_color=("#555555", "#888888")).pack(pady=(0, 15))
         ctk.CTkLabel(about_win, text="Developed By:", font=("Arial", 14, "bold"), text_color=("#000000", "#FFFFFF")).pack(pady=(5, 5))
 
         team_frame = ctk.CTkFrame(about_win, fg_color=("#E0E0E0", "#222222"), corner_radius=10)
@@ -577,7 +577,7 @@ class DashboardWindow:
         y = self.window.winfo_y() + 100
         share_win.geometry(f"+{x}+{y}")
 
-        repo_link = "https://github.com/Kamalesh-S2k5-RR/Net_Immune_v1.1-core.git" 
+        repo_link = "https://github.com/Kamalesh-S2k5-RR/Net-Innume-Versions.git" 
         promo_text = "Check out Net Immune! I built an AI-powered cybersecurity agent that scans for hackers in real-time. 🤖🛡️"
         
         safe_text = urllib.parse.quote(promo_text)
